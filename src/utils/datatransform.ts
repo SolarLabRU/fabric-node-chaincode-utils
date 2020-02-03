@@ -204,9 +204,7 @@ export class Transform {
     public static normalizePayload(value: any): any {
         if (value === null) {
             return value;
-        }
-        
-        if (this.isDate(value)) {
+        } else if (this.isDate(value)) {
             return value.getTime();
         } else if (this.isString(value)) {
             return value;
@@ -232,6 +230,6 @@ export class Transform {
     }
 
     static isObject(data: any) {
-        return typeof data === 'object';
+        return data !== null && typeof data === 'object';
     }
 }
