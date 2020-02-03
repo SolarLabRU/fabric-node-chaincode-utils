@@ -1,6 +1,6 @@
 {
     "name": "@solarlabru/fabric-chaincode-utils",
-    "version": "5.0.6",
+    "version": "5.1.6",
     "description": "",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -27,7 +27,7 @@
     },
     "homepage": "https://github.com/SolarLabRU/fabric-chaincode-utils#readme",
     "devDependencies": {
-        "@theledger/fabric-mock-stub": "^4.0.0",
+        "@theledger/fabric-mock-stub": "^5.0.0",
         "@theledger/fabric-shim-crypto-types": "^1.0.5",
         "@types/chai": "^4.2.8",
         "@types/mocha": "^5.2.1",
@@ -53,7 +53,7 @@
         "@theledger/couchdb-query-engine": "^2.4.4",
         "aguid": "^2.0.0",
         "fabric-shim": "^1.4.2",
-        "fabric-shim-crypto": "^1.4.2",
+        "fabric-shim-crypto": "^1.4.4",
         "serialize-error": "^3.0.0",
         "winston": "^2.4.4",
         "yup": "^0.27.0"
